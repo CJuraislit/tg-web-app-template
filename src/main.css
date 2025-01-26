@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Подключение начертания Semi-Bold */
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/InterDisplay-SemiBold.woff2') format('woff2');
+    font-weight: 600; /* Semi-Bold обычно имеет вес 600 */
+    font-style: normal;
+}
+
+/* Подключение начертания Medium */
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/InterDisplay-Medium.woff2') format('woff2');
+    font-weight: 500; /* Medium обычно имеет вес 500 */
+    font-style: normal;
+}
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: lch(28 99 35);
+}
+
+.logo1{
+    width: 10em;
+}
+
+.logo2{
+    width: 10em;
+}
+
